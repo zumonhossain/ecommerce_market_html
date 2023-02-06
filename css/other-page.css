@@ -1,0 +1,563 @@
+/*
+==========================================
+     breadcrumb-body Css
+==========================================
+*/
+
+.breadcrumb-body ol {
+	background: transparent;
+	margin: 0;
+	padding: 25px 0px 15px 0px;
+}
+.breadcrumb-body ol li {
+	
+}
+.breadcrumb-body ol li a {
+	color: #4f4f4f;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.breadcrumb-body ol li a:hover {
+	color: #ff9600;
+}
+/*
+==========================================
+     Sign In Page Css
+==========================================
+*/
+.sign-in-area {
+	overflow: hidden;
+	padding: 20px 0px 50px 0px;
+}
+.sign-heading h2 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #666;
+	margin-bottom: 20px;
+}
+.sign-in-form {
+	background-color: #f2f2f2;
+	padding: 30px;
+	border: 1px solid #e2e2e2;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.sign-in-form > label {
+	font-size: 16px;
+}
+.sign-in-form input {
+	padding: 10px;
+}
+.forgate a {
+	font-size: 16px;
+	color: #4f4f4f;
+	line-height: 50px;
+}
+.sign-in-form button {
+	background-color: #495057;
+}
+.sign-in-form button:hover {
+	background-color: #666;
+    color: #fff;
+    border-color: #666;
+}
+/* sign-form-list */
+.sign-form-list {
+	margin-left: 50px;
+	margin-bottom: 72px;
+}
+.sign-form-list ul li {
+	list-style: disc;
+}
+
+/*
+==========================================
+     Register Page Css
+==========================================
+*/
+.certificate-tabs ul {
+	margin-bottom: 25px;
+}
+.certificate {
+	border: 1px solid #dfdfdf;
+	padding: 15px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+button.preview {
+	background: transparent;
+	border: 1px solid #dfdfdf;
+	color: #454545;
+	padding: 12px 15px;
+}
+.redeem-gift-list h3 {
+	font-weight: 600;
+	color: #495057;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.redeem-gift-list p {
+	color: #495057;
+	font-size: 14px;
+}
+.redeem-gift-list ul li {
+	list-style: decimal;
+	margin-left: 17px;
+	color: #495057;
+}
+.certificate-tabs ul.nav-tabs li a {
+	color: #495057;
+}
+.certificate-code button {
+	margin-top: 12px;
+	padding: 15px 46px;
+}
+/*
+==========================================
+     Comparing Products Page Css
+==========================================
+*/
+.comparing-heading,
+.check-out h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 20px;
+}
+/*
+==========================================
+     Refine Page Css
+==========================================
+*/
+.categories-sidebar {
+	border: 1px solid #dedede;
+}
+.deals-categories-sidebar{}
+.deals-categories-sidebar ul{}
+.deals-categories-sidebar ul li {
+	border-bottom: 1px solid #dedede;
+}
+.deals-categories-sidebar ul li:last-child{border-bottom: 0}
+.deals-categories-sidebar ul li a {
+	color: #495057;
+	font-size: 16px;
+	padding: 10px 20px;
+	display: block;
+}
+.deals-categories-sidebar ul li:hover a{
+	color: #ff9600;
+}
+.refine {
+	border: 1px solid #dedede;
+}
+.refine-title h5 {
+	background: #f2f2f2;
+	color: #222;
+	padding: 10px 0px 10px 17px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.panel-heading a span {
+	font-size: 17px;
+}
+.custom-cms-block {
+	border: 1px solid #dedede;
+}
+.custom-content {
+	padding: 6px 15px 30px 15px;
+}
+.custom-banner a img {
+	width: 100%;
+}
+.custom-text h5 {
+	padding-top: 15px;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 600;
+	color: #444;
+}
+.custom-text p {
+	color: #444;
+	font-size: 16px;
+	font-weight: 300;
+}
+.custom-text button {
+	border: none;
+	background: black;
+	color: #fff;
+	font-weight: 600;
+	padding: 5px 20px;
+}
+.fashions-show img {
+	width: 100%;
+}
+.fashions-show {
+	border: 1px solid #dedede;
+	padding: 15px;
+}
+
+/*
+==========================================
+     Image Thumbnails Css
+==========================================
+*/
+.image-thumbnails {
+	display: inline-block;
+	padding-bottom: 20px;
+}
+.single-thumbnails {
+	float: left;
+	margin-right: 100px;
+}
+.single-thumbnails:last-child {
+	margin-right: 0;
+}
+.thumbnails-title h5 {
+	color: #4f4f4f;
+	font-weight: 600;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+
+.refine .panel .panel-heading h4 a i.fa {
+	float: right;
+	font-size: 76%;
+	line-height: 30px;
+	display: none;
+	padding-right: 15px;
+}
+.refine .panel.panel-default {
+	border-bottom: 1px solid #ddd;
+}
+.refine .panel.panel-default:last-child {
+	border-bottom: 0;
+}
+.refine .panel .panel-heading h4 a[aria-expanded="true"] i.fa.fa-angle-down {
+
+    display: block;
+
+}
+.refine .panel .panel-heading h4 a[aria-expanded="false"] i.fa.fa-angle-up {
+
+    display: block;
+
+}
+.shop-tabs span {
+	font-size: 17px;
+	padding-right: 10px;
+	line-height: 30px;
+}
+.shop-tabs {
+	float: left;
+}
+.shop-tabs li {
+	margin-right: 15px;
+}
+.shop-tabs li a {
+	padding: 0;
+	border: 1px solid #ddd;
+	color: #444;
+	width: 30px;
+	height: 30px;
+	font-size: 19px;
+	text-align: center;
+	line-height: 30px;
+}
+.shop-tabs li a.active{
+	color: #ff9600;
+}
+.shop-list-bg {
+	border: 1px solid #E9E9E9;
+	padding: 10px;
+	background: transparent;
+}
+.shop-list{
+	padding-top: 0;
+}
+.shop-list h3 {
+	font-size: 16px;
+}
+.shop-text p {
+	color: #495057;
+	
+	font-size: 14px;
+	font-weight: 400;
+}
+.filter {
+	float: right;
+}
+/*
+==========================================
+     Blog Page Css
+==========================================
+*/
+.blog-content {
+	display: inline-block;
+	margin-top: 10px;
+}
+.blog-content span a {
+	color: #666;
+	font-size: 14px;
+}
+.blog-content span i {
+	font-size: 10px;
+	padding-right: 3px;
+	color: #666;
+}
+/*
+==========================================
+     Support Page Css
+==========================================
+*/
+
+.support-title h2 {
+	color: #495057;
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 40px;
+	position: relative;
+}
+.support-title h2::after {
+	content: "";
+	position: absolute;
+	display: block;
+	height: 4px;
+	width: 100px;
+	background: #ff9600;
+	bottom: -5px;
+	left: 47%;
+}
+.support-base {
+	display: table-row;
+	width: 100%;
+	height: 100%;
+	background-color: #ff9600;
+	cursor: pointer;
+	color: #fff;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.support-base:hover {
+	background-color: #495057;
+}
+.support-icon-left {
+	display: table-cell;
+	padding: 65px 0;
+	vertical-align: middle;
+	width: 20%;
+	text-align: center;
+}
+.support-icon-left span {
+	font-size: 70px;
+	width: 70px;
+	height: 70px;
+	color: #fff;
+}
+.base-text {
+	width: 70%;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 32px 20px 32px 10px;
+}
+.base-text h4 {
+	font-weight: 600;
+	color: #fff;
+	font-size: 18px;
+}
+.base-text p {
+	margin: 0;
+}
+.support-icon-right {
+	width: 10%;
+	vertical-align: middle;
+	display: table-cell;
+	padding: 65px 0px;
+}
+.support-icon-right span {
+	font-size: 25px;
+}
+
+/*
+==========================================
+     Faq Page Css
+==========================================
+*/
+.faqs-collapse-title h5 {
+	color: #495057;
+	font-weight: 600;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.faqs-collapse .accordion .card .card-header button {
+	color: #333;
+	background: transparent;
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+	padding: 10px 20px;
+	text-decoration: none;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	font-size: 16px;
+}
+.faqs-collapse .accordion .card:hover .card-header button {
+	background: #ff9600;
+	color: #fff;
+}
+.faqs-collapse .accordion .card .card-header {
+	border: none;
+	padding: 0px;
+}
+.faqs-collapse .accordion .card {
+	margin-bottom: 5px;
+}
+.faqs-icon {
+	padding-right: 8px;
+	font-size: 17px;
+}
+.faqs-list ul li {
+	list-style: disc;
+	margin-left: 15px;
+}
+.faqs-list ul li a {
+	color: #4f4f4f;
+	padding: 5px 0px;
+	display: block;
+}
+.faqs-list ul li:hover a {
+	color: #ff9600;
+}
+
+/*
+==========================================
+     Gallery Page Css
+==========================================
+*/
+.single-picture {
+	margin-bottom: 30px;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.single-picture:hover {
+	opacity: .7;
+}
+.single-picture img {
+	width: 100%;
+}
+.gallery-tabs {
+	margin-bottom: 20px;
+}
+.gallery-tabs li{}
+.gallery-tabs li a{
+	color: #495057;
+}
+/*
+==========================================
+     Contact Us Page Css
+==========================================
+*/
+.contact-us-text h5 {
+	color: #495057;
+	font-weight: 600;
+	font-size: 25px;
+}
+.contact-us-text p {
+	color: #495057;
+	margin-bottom: 50px;
+}
+.contact-us {
+	border: navajowhite;
+	background: #666;
+	color: #fff;
+	padding: 10px 35px;
+	text-transform: uppercase;
+}
+.contact-us:hover {
+	background: #ff9600;
+	cursor: pointer;
+}
+/*
+==========================================
+     About Us Page Css
+==========================================
+*/
+.about-us-banner img {
+	width: 100%;
+	-webkit-transition: .7s;
+	-o-transition: .7s;
+	transition: .7s;
+}
+.about-us-banner {
+	-webkit-transition: .7s;
+	-o-transition: .7s;
+	transition: .7s;
+}
+.about-us-banner:hover{
+	opacity: .7;
+}
+.about-us-content h4 {
+	font-weight: 600;
+	color: #666;
+	font-size: 25px;
+}
+.about-us-content p {
+	color: #666;
+	font-size: 14px;
+}
+.team-service{
+	-webkit-transition: .7s;
+	-o-transition: .7s;
+	transition: .7s;
+}
+.team-service:hover{
+	opacity: .7;
+}
+.team-service img {
+	width: 100%;
+}
+.team-service h3 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #666;
+	margin-top: 20px;
+}
+.team-service p {
+	color: #666;
+	font-size: 16px;
+}
+.about-us-content img {
+	width: 80%;
+}
+.about-us-content h5 {
+	font-weight: 600;
+	color: #666;
+	margin-top: 20px;
+}
+/*
+==========================================
+     service Page Css
+==========================================
+*/
+.service-title {
+	background: #5bc0de;
+	width: 45px;
+	height: 45px;
+	color: #fff;
+	border-radius: 50px;
+	display: inline-block;
+	text-align: center;
+	line-height: 45px;
+	font-size: 33px;
+	font-weight: 600;
+}
+.faqs-list h4 {
+	font-weight: 600;
+}
+/*
+==========================================
+     Page Css
+==========================================
+*/

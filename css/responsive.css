@@ -1,0 +1,375 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .display-lr-none{
+        display: none;
+    }
+    .main-menu ul li {
+        margin-right: 22px;
+    }
+
+    .product-content h3 {
+        font-size: 13px;
+    }
+    .social-menu ul li {
+        margin-left: 15px;
+    }
+    .figure-icon {
+        width: 100%;
+        text-align: center;
+    }
+    .figure-text {
+        padding: 4px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .figure-text p {
+        text-align: center;
+    }
+    /* blog page */
+    .blog-icon-text {
+        margin-right: 8px;
+    }
+    .blog-icon-text > span > i {
+        padding-right: 0px;
+    }
+    
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .display-lg-none{
+        display: none;
+    }
+    .shopping-cart {
+        display: none;
+    }
+    .shopping-dollar {
+        display: none;
+    }
+    .categories-title ul li ul.submenu {
+        width: 200px;
+    }
+    .categories-title ul li ul.submenu li .mega-menu {
+        width: 700px;
+        padding: 20px;
+    }
+    .categories-title ul li ul.submenu li .mega-menu ul li.mega-title a {
+        font-weight: 700;
+        font-size: 13px;
+    }
+    .main-menu {
+        float: right;
+    }
+    .main-menu ul li {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .main-menu ul li .mega-menu ul li,
+    .main-menu ul li ul.submenu li {
+        float: left;
+    }
+    .header-bottom-right {
+        display: none;
+    }
+    .social-menu ul li {
+        display: inline-block;
+        margin-left: 25px;
+    }
+
+
+    /* daliy deals page */
+
+    .daily-product-action > a {
+        padding: 5px 0px;
+    }
+    .daily-product-action {
+        width: 40px;
+    }
+    /* blog page */
+    .blog-icon-text {
+        margin-right: 10px;
+    }
+
+}
+
+ 
+/*  MD Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .display-md-none{
+        display: none;
+    }
+    .margin-md-responsive{
+        margin-bottom: 30px;
+    }
+    .top-menu ul li {
+        margin-left: 20px;
+    }
+    .logo img {
+        width: 150px;
+        height: 50px;
+    }
+    .header-cart-icon ul li {
+        margin-left: 0px;
+    }
+    .header-search-btn {
+        padding: 10px 15px;
+    }
+    .shopping-cart, .shopping-dollar {
+        font-size: 12px;
+        padding-left: 3px;
+    }
+    .categories-title ul li ul.submenu {
+        width: 180px;
+    }
+    .banner-figure a img {
+        height: 50px;
+    }
+    
+    .main-menu ul li {
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+    .main-menu ul li .mega-menu {
+        width: 680px;
+        left: -220px;
+    }
+    .categories-title ul li ul.submenu li .mega-menu {
+        width: 510px;
+        left: 105%;
+    }
+    .categories-title ul li ul.submenu li .mega-menu ul li a img {
+        width: 110px;
+        height: 245px;
+    }
+    .figure-icon {
+        font-size: 40px;
+        width: 45px;
+    }
+    .banner-figcaption {
+        padding: 14px 14px;
+    }
+    .blog-icon-text {
+        margin-right: 15px;
+    }
+    .blog-icon-text > span > i {
+        padding-right: 0px;
+    }
+    .newsletter-icon > span {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .newsletter-text h3 {
+        font-size: 20px;
+    }
+    .footer-copyright p {
+        letter-spacing: 0px;
+    }
+
+
+    /* daily deals page */
+    .single-thumbnails {
+        margin-right: 30px;
+    }
+
+    /* contact us page */
+    .team-service {
+        text-align: center;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .display-sm-none{
+        display: none;
+    }
+    .margin-sm-responsive{
+        margin-bottom: 30px;
+    }
+    .sm-center-responsive{
+        text-align: center;
+    }
+    .margin-xl {
+        margin-bottom: 0;
+    }
+
+    .header-top-left p {
+        font-size: 11px;
+        text-align: center;
+    }
+    .top-menu ul li {
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+    .header-search-btn {
+        padding: 10px 15px;
+    }
+    .header-cart-icon ul {
+        text-align: center;
+    }
+    .header-cart-icon ul li {
+        margin-left: 0px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .shop-categories-body {
+        text-align: center;
+    }
+    .slider-area {
+        padding-top: 15px;
+    }
+    .figure-icon {
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+    }
+    .figure-text {
+        text-align: center;
+        width: 100%;
+    }
+    .figure-text h5 {
+        font-size: 13px;
+    }
+    .product-service {
+        margin-bottom: 30px;
+    }
+    .product-tab ul li {
+        margin-right: 11px;
+    }
+    .product-tab ul li a {
+        font-size: 12px;
+    }
+    .second-product-area {
+        margin-top: 50px;
+    }
+    .figure-text p {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .banner-figure a img {
+        height: 30px;
+    }
+    .product-tab > span > a {
+        display: none;
+    }
+    .third-product-area {
+        margin-top: 50px;
+    }
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .social ul {
+        text-align: center;
+    }
+    .newsletter-icon {
+        display: none;
+    }
+    .newsletter-text {
+        display: none;
+    }
+    .footer-copyright p {
+        letter-spacing: 0px;
+        font-size: 12px;
+    }
+    .footer-copyright {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .footer-payment ul {
+        text-align: left;
+    }
+    .footer-payment ul li {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    
+
+
+    /* daily deals page */
+    .single-thumbnails {
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+    .shop-tabs li {
+        margin-right: 5px;
+    }
+    .single-thumbnails img {
+        width: 80px;
+    }
+    .thumbnails-title h5 {
+        font-size: 14px;
+    }
+
+    /* contact us page */
+    .team-service {
+        text-align: center;
+    }
+    .about-us-content img {
+        width: 100%;
+    }
+    /* compare page */
+    .comparing-heading h2 {
+        font-size: 20px;
+    }
+    /* check out page */
+    .check-out h2 {
+        font-size: 20px;
+    }
+
+    /* gallery page */
+    .gallery-tabs li a {
+        font-size: 14px;
+        padding: 10px 8px;
+    }
+
+    /* gift certificates page */
+    .add-gift-btn button {
+        font-size: 10px;
+        padding: 14px 8px;
+        margin-top: 12px;
+    }
+    /* service page */
+    .service-title {
+        width: 35px;
+        height: 35px;
+        line-height: 36px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .faqs-list h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    /* sign in page */
+    .sign-in-form {
+        margin-top: 30px;
+    }
+     /* support page */
+     .support-title h2 {
+        font-size: 24px;
+    }
+
+
+    
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+
+
+
+
+
+ 
+}
